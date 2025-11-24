@@ -25,7 +25,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rails", ">= 8.0.3"
   spec.add_dependency "devise", "~> 4.9"
   spec.add_dependency "omniauth", "~> 2.1"
-  spec.add_dependency "omniauth-rails_csrf_protection", "~> 1.0.0"
+  spec.add_dependency "omniauth-rails_csrf_protection", ">= 1.0", "< 2.1"
   spec.add_dependency "omniauth-github", "~> 2.0"
   spec.add_dependency "repost", "~> 0.4.2"
   spec.add_dependency "importmap-rails", "~> 2.2.2"

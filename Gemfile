@@ -15,7 +15,7 @@ gem "stimulus-rails"
 # OAuth dependencies (these are in gemspec but needed for development)
 gem "devise", "~> 4.9"
 gem "omniauth", "~> 2.1"
-gem "omniauth-rails_csrf_protection", "~> 1.0.0"
+gem "omniauth-rails_csrf_protection", "~> 2.0.0"
 gem "omniauth-github", "~> 2.0"
 gem "repost", "~> 0.4.2"
 
